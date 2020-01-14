@@ -14,7 +14,7 @@ namespace Fibocci
             int number = 0, number1 = 1, number2 = 0;
             int sum = 0;
 
-            while (sum <= limit)
+            while (sum <= limit && sum+number2<5000000)
             {
                 number2 = number + number1;
 
