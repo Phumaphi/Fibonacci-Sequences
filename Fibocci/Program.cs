@@ -14,9 +14,9 @@ namespace Fibocci
 
         static void Main(string[] args)
         {
-            #region Fibonacci class initialization
+            #region Fibonacci class instantiation
 
-            var fibonac = new Fibonacci();
+            var fibonac = new Fibonacci(); //why not be more specific since you already know the data type (int), as opposed to var
 
             fibonac.FibonacEngine(5000000);
 
